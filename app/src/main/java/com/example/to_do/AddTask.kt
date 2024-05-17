@@ -50,7 +50,7 @@ class AddTask : AppCompatActivity(), DatePickerDialog.OnDateSetListener, TimePic
             val task = Task(0, title, content, priority,dateTime) // Include dateTime in the constructor
             db.insertTask(task)
             finish()
-            Toast.makeText(this, "Task saved", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Task saved Sucessfully", Toast.LENGTH_SHORT).show()
         }
 
         }
